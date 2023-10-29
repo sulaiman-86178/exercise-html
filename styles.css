@@ -1,0 +1,45 @@
+.container{
+  display: flex;
+  gap:100px;
+
+
+
+}
+/* .container > *{
+
+} */
+.top{
+  flex-direction: row;
+  flex-basis:250px;
+  background-color: #F5F7F8;
+
+}
+p{
+    text-align: center;
+
+}
+.bold{
+  font-size:30px;
+  font-weight: bold;
+}
+button{
+background-color: #FFB000;
+padding: 10px;
+border: none;
+}
+
+.middle{
+  flex-direction: row;
+  flex-basis:250px;
+  background-color: #F5F7F8;
+
+}
+.yes{
+  font-size:20px;
+  font-weight: bold;
+}
+.down{
+  flex-direction: row;
+  flex-basis:250px;
+  background-color: #F5F7F8;
+}
